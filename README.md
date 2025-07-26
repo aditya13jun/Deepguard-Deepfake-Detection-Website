@@ -28,11 +28,16 @@ DeepGuard uses the **MesoNet model**—a lightweight CNN architecture—to ident
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ UI Preview
 
-- 📤 Upload Section  
-- 📊 Detection Result with Confidence  
-- 🎯 Real-Time Response Preview  
+### 🏠 Home Page  
+![Home Page](./assets/home_page.png)
+
+### 🖼️ Image Upload & Preview  
+![Image Preview](./assets/image_preview.png)
+
+### 📊 Confidence Score Output  
+![Confidence Score](./assets/confidence_score.png)
 
 ---
 
