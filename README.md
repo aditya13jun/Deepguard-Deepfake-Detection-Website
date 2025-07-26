@@ -1,25 +1,51 @@
 # 🛡️ DeepGuard: Deepfake Detection Website
 
-**DeepGuard** is an AI-powered web application that detects deepfakes in videos and images using advanced machine learning models. Built with a React frontend and Flask backend, it integrates the **MesoNet** model for deepfake classification.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/)
+[![React](https://img.shields.io/badge/Frontend-React-blue)](https://reactjs.org/)
+[![TensorFlow](https://img.shields.io/badge/Model-TensorFlow-orange)](https://www.tensorflow.org/)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+
+> **DeepGuard** is an AI-powered web platform that **detects deepfakes in images and videos**. Combining state-of-the-art deep learning techniques with an intuitive user interface, DeepGuard helps fight the rising threat of media manipulation.
 
 ---
 
-## 🚀 Features
+## 🧠 What is DeepGuard?
 
-- 🔍 Upload and scan images or videos for deepfake detection
-- ⚙️ Real-time prediction using MesoNet deep learning model
-- 📊 Displays prediction confidence
-- 📁 History log of uploaded files and detection results (optional)
-- 🌐 Clean and responsive UI built with Tailwind CSS + React.js
-- 🧠 Backend powered by Python (Flask) and TensorFlow
+DeepGuard uses the **MesoNet model**—a lightweight CNN architecture—to identify forged faces in uploaded content. Users can simply upload an image or a short video, and DeepGuard will return the likelihood of the content being a deepfake, backed by a confidence score.
 
 ---
 
-## 📸 Tech Stack
+## ✨ Key Features
 
-| Frontend       | Backend       | AI Model     | Other Tools         |
-|----------------|---------------|--------------|----------------------|
-| React.js       | Python Flask  | MesoNet      | TensorFlow, Keras   |
-| Tailwind CSS   | RESTful APIs  | OpenCV       | NumPy, Matplotlib   |
+- ✅ Detect deepfake images/videos using trained MesoNet
+- ⚡ Fast and accurate predictions
+- 📉 Confidence score with visualization
+- 🌐 Web-based interface built with React + Tailwind CSS
+- 🔥 Backend powered by Flask and TensorFlow
+- 🧩 Easy-to-extend modular architecture
+- 📱 Mobile responsive design
+
+---
+
+## 🖼️ Screenshots
+
+> *(Insert screenshots of your UI below this section)*
+
+- 📤 Upload Section  
+- 📊 Detection Result with Confidence  
+- 🎯 Real-Time Response Preview  
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer        | Technology                        |
+|--------------|------------------------------------|
+| Frontend     | React.js, Tailwind CSS             |
+| Backend      | Flask, Python                      |
+| AI Model     | MesoNet (TensorFlow/Keras)         |
+| Video/Image  | OpenCV, FFmpeg                     |
+| Dev Tools    | Git, VS Code, Postman              |
 
 ---
